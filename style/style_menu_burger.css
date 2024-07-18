@@ -1,0 +1,161 @@
+.container-burger {
+  background-color: white;
+}
+
+.container-kingsa {
+  background-color: #f4ebdc;
+  width: 100%;
+  height: 100%;
+}
+
+.container-kingsa p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+  color: #8b542f;
+  padding-top: 56px;
+}
+
+.container-kinghem {
+  background-color: #f4ebdc;
+  width: 100%;
+  height: 100%;
+}
+
+.container-kinghem {
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+  color: #8b542f;
+  padding-top: 56px;
+}
+
+
+.product {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.product-image {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.product-image:hover {
+    transform: scale(1.1);
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    
+}
+
+.popup-judul {
+    position: fixed;
+    z-index: 10;
+    text-align: center; /* Menengahkan judul */
+    margin-top: 60px; /* Jarak dari atas */
+    margin-left: 400px;
+}
+
+.popup-content {
+    display: flex; /* Menggunakan flexbox untuk layout */
+    align-items: center; /* Mengatur item dalam satu garis vertikal */
+    justify-content: center; /* Mengatur item dalam satu garis horizontal */
+    position: relative;
+    margin: auto;
+    padding: 20px;
+    width: 828px;
+    height: 520px;
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.popup-image {
+    position: fixed;
+    left: 50px;
+    bottom: 100px;
+    width: 638px;
+    height: 498px;
+    margin-right: 20px; /* Jarak antara gambar dan detail produk */
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.popup h4 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 0; /* Menghapus margin atas yang default */
+    color: #8b542f;
+    text-align: center; /* Menata teks ke tengah */
+    
+}
+.popup h3 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 0; /* Menghapus margin atas yang default */
+    color: #8b542f;
+    text-align: center; /* Menata teks ke tengah */
+    display: hidden;
+    margin-right: 90px;
+    margin-top: 100px;
+}
+
+.btn-pop {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 21px;
+    padding-right: 21px;
+    background-color: #FF8633;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.pop-price {
+    padding-top: 8px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #8b542f;
+}
+
+.btn-pop i {
+    color: white;
+    margin-right: 8px;
+}
+
+.produk-detail {
+    flex: 1; /* Membuat produk-detail mengisi sisa ruang yang tersedia */
+    margin-top: 100px;
+    color: #8b542f;
+}
+
+.produk-detail p {
+    margin-bottom: 12px; /* Jarak antar paragraf dalam produk-detail */
+}
+
+.produk-detail p:last-child {
+    margin-bottom: 0; /* Menghapus margin bawah untuk paragraf terakhir */
+}

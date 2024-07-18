@@ -1,0 +1,278 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  margin: 82px 50px;
+}
+
+.step_section {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin-left: 30px;
+}
+
+.cart {
+  z-index: 3;
+}
+
+.step_bg {
+  display: flex;
+  justify-content: center; /* untuk pusatkan secara horizontal */
+  align-items: center; /* untuk pusatkan secara vertikal */
+  position: relative; /* penting untuk posisi absolute di dalamnya */
+}
+
+.square-cart {
+  width: 350px;
+  height: 60px;
+  background: #ff8733;
+}
+
+.right-triangle-cart {
+  width: 0;
+  height: 0;
+  border-left: 50px solid #ff8733;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  z-index: 3;
+}
+
+.step_text {
+  position: absolute; /* agar berada di tengah step_bg */
+  display: flex;
+  justify-content: center; /* untuk pusatkan teks secara horizontal */
+  align-items: center; /* untuk pusatkan teks secara vertikal */
+  gap: 10px;
+  color: white; /* contoh warna teks */
+}
+
+.text-angka {
+  background-color: #8b542f; /* Ganti dengan warna yang Anda inginkan */
+  color: white; /* Warna teks */
+  border-radius: 50%; /* Membuat elemen bulat sempurna */
+  width: 36px; /* Lebar elemen */
+  height: 36px; /* Tinggi elemen */
+  display: flex; /* Menggunakan Flexbox untuk pusatkan teks di dalamnya */
+  justify-content: center; /* Pusatkan teks secara horizontal */
+  align-items: center; /* Pusatkan teks secara vertikal */
+  font-size: 20px; /* Ukuran font, sesuaikan sesuai kebutuhan */
+  margin: 0; /* Pusatkan elemen jika diperlukan */
+}
+
+.text-label {
+  margin-top: 14px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #8b542f;
+}
+
+.delivery {
+  margin-left: -50px;
+}
+
+.peyment {
+  margin-left: -50px;
+}
+.square_payment {
+  width: 380px;
+  height: 60px;
+  background: #ff8733;
+}
+
+.right-triangle_payment {
+  width: 0;
+  height: 0;
+  border-left: 50px #ff8733;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+}
+
+.square_deliv {
+  width: 350px;
+  height: 60px;
+  background: #ff8733;
+}
+
+.right-triangle_deliv {
+  width: 0;
+  height: 0;
+  border-left: 50px solid #ff8733;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  z-index: 3;
+}
+.delivery {
+  z-index: 2;
+}
+
+.payment {
+  z-index: 1;
+}
+
+.card-content {
+  margin-left: 28px;
+  margin-top: 40px;
+  background-color: #f9f9f5;
+  width: 1090px;
+  height: 600px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.card-judul {
+  margin-left: 24px;
+  padding-top: 16px;
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+hr {
+  margin-left: 24px;
+  margin-right: 30px;
+  margin-top: 16px;
+  color: #8b542f;
+}
+
+.card-wrapper {
+  margin: 24px 24px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: bold;
+  color: #8b542f;
+}
+
+.subtotal {
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 8px;
+}
+
+.free {
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 24px;
+}
+
+.pb {
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 24px;
+}
+
+.surch {
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 24px;
+}
+
+.card-content {
+  display: flex;
+}
+
+.vertical {
+  border: none;
+  border-left: 2px solid #8b542f;
+  height: 570px;
+  width: 1px;
+  margin-left: 16px;
+}
+
+.detail {
+  display: flex;
+}
+
+.detail_harga {
+  margin-top: 32px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #8b542f;
+}
+
+.detail_singkat {
+  font-size: 12px;
+  padding-right: 8px;
+}
+
+.detail_promo {
+  border-color: #ff8733;
+  background-color: transparent;
+  padding:10px 20px;
+  border-radius: 8px;
+  color: #ff8733;
+  font-weight: bold;
+}
+
+.border-left {
+  width: 780px;
+}
+
+.total_semua {
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  margin: 12px 24px;
+  justify-content: space-between;
+}
+
+.detail_deliv {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+.detail_alamat {
+    font-size: 12px;
+    color: #9E9191;
+}
+
+.btn_detail {
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+    
+}
+
+.btn_detail p {
+   font-size: 24px;
+   font-weight: bold;
+   padding-right: 16px; 
+}
+
+.e-wallet {
+    margin-top: 24px;
+}
+
+.e-wallet p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.col-1 {
+    display: flex;
+    margin: 12px 0;
+    gap: 32px;
+    padding: 8px 16px;
+}
+
+.col-1 a img {
+    padding: 8px 16px;
+    border: 2px solid ;
+    border-color: #9E9191;
+    border-radius: 8px;
+}
+

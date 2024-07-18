@@ -1,0 +1,190 @@
+main {
+  margin: 82px 50px;
+}
+.card-content {
+  margin-left: 28px;
+  margin-top: 40px;
+  background-color: #f9f9f5;
+  width: 1090px;
+  height: 750px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.card-judul {
+  margin-left: 24px;
+  padding-top: 16px;
+}
+
+.judul-1 {
+  font-size: 24px;
+  color: #8b542f;
+  font-weight: bold;
+}
+
+.hias {
+  display: flex;
+  margin-left: 24px;
+  justify-items: center;
+  align-items: center;
+}
+
+.hias button {
+  padding: 10px 18px;
+  border-radius: 12px;
+  margin-top: 60px;
+  margin-left: 12px;
+}
+
+.hias img {
+  padding-left: 50px;
+}
+
+.btn1 {
+  background-color: #ff8733;
+  border: none;
+  color: white;
+}
+
+.btn2 {
+  border: 2px solid #ff8733;
+  background: transparent;
+}
+
+.hr-atas {
+  margin-left: 24px;
+  margin-right: 30px;
+  margin-top: 8px;
+  color: #8b542f;
+}
+
+.border-bawah {
+  display: flex;
+}
+
+.bawah-kiri {
+  margin-left: 24px;
+  margin-top: 12px;
+}
+
+.order {
+  font-size: 20px;
+  font-weight: bold;
+  color: #8b542f;
+}
+
+.tanggal {
+  color: #7c7c7a;
+}
+
+.dikirim {
+  color: #7c7c7a;
+}
+
+.dikirim span {
+  font-weight: bold;
+  color: black;
+}
+
+.bawah-kiri img {
+  margin-left: 12px;
+}
+
+.bawah-kiri button {
+  margin-top: 24px;
+  padding: 10px 18px;
+  margin-left: 60px;
+  border-radius: 12px;
+}
+
+.vertical {
+  border: none;
+  border-left: 2px solid #8b542f;
+  height: 450px;
+  width: 1px;
+  margin-left: 56px;
+}
+
+.bawah-kanan {
+  margin-left: 24px;
+  margin-top: 16px;
+}
+
+.bwh-title {
+  font-size: 20px;
+  color: #ff8733;
+  font-weight: bold;
+  display: flex;
+  gap: 230px;
+}
+
+.bwh-harga {
+  display: flex;
+  align-items: center;
+  gap: 230px;
+  justify-items: center;
+}
+
+.crown {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 45px;
+}
+
+.crown img {
+  padding-bottom: 20px;
+}
+
+.nampuluh {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.crown p {
+  font-size: 20px;
+}
+
+.crown span {
+  font-weight: bold;
+}
+
+.wallet {
+  font-size: 16px;
+}
+
+.bwh-order {
+  font-size: 16px;
+}
+
+.bwh-burger {
+  display: flex;
+  gap: 125px;
+}
+
+.sub {
+  display: flex;
+  gap: 410px;
+}
+.fee {
+  display: flex;
+  gap: 396px;
+}
+.surch {
+  display: flex;
+  gap: 340px;
+}
+.fb1 {
+  display: flex;
+  gap: 436px;
+}
+.TOTAL {
+  display: flex;
+  gap: 395px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.hr-bawah {
+  color: #8b542f;
+   
+}

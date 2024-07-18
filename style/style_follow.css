@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.article-foto {
+    max-width: 1440px; /* Lebar maksimum kontainer */
+    margin: auto;
+}
+
+.row-1,
+.row-2 {
+    display: flex;
+    justify-content: space-around; /* Mengatur jarak di antara kolom */
+    align-items: center;
+    
+}
+
+.col-4 {
+    flex: 1; /* Mengambil 1 bagian dari container (satu kolom dari tiga kolom) */
+    max-width: 480px; /* Lebar maksimum gambar */
+    max-height: 435px; /* Tinggi maksimum gambar */
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.article-foto {
+    max-width: 1440px; /* Lebar maksimum kontainer */
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around; /* Mengatur jarak di antara kolom */
+    align-items: center;
+}
+
+.col-4 {
+    flex: 1; /* Mengambil 1 bagian dari container (satu kolom dari tiga kolom) */
+    max-width: 480px; /* Lebar maksimum gambar */
+    max-height: 435px; /* Tinggi maksimum gambar */
+    position: relative; /* Menambah posisi relatif pada kolom */
+}
+
+.img-container {
+    position: relative; /* Menambahkan posisi relatif pada kontainer gambar */
+}
+
+.img-container img {
+    width: 100%; /* Mengatur lebar gambar */
+    height: auto; /* Mengatur tinggi gambar secara proporsional */
+    display: block;
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem; /* Ukuran ikon */
+}
+
+.img-container:hover img {
+    filter: brightness(60%); /* Menggelapkan gambar saat di-hover */
+}
+

@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+nav {
+    width: 100%;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2D2D2D;
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 91px;
+    height: 91px;
+    background-color: #F4EBDC;
+    border-radius: 100%;
+}
+
+.nav-logo img {
+    height: 70px;
+    width: 63px;
+    cursor: pointer;
+}
+
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    margin: 0;
+    padding: 0 24px;
+    list-style: none;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.nav-list ul li a:hover{
+    color: #FF8C00;
+}
+
+.nav-list ul li a {
+    padding: 0 30px;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+
+}
+
+
+
+.nav-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 100%;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+    background-color: #FF8C00;
+}
+
+.nav-icon a {
+    text-decoration: none;
+    color: white;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    left: 0;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+
+.carousel-indicators button {
+    width: 12px;
+    height: 12px;
+    background-color: black;
+    border: none;
+    opacity: 0.5;
+    transition: opacity 0.6s ease;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+    background-color: #000; /* Ganti dengan warna yang diinginkan untuk indikator aktif */
+}
+
+.container p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    color: #8B542F;
+}
+
+.container {
+    max-width: 800px; /* Atur lebar maksimum container sesuai kebutuhan */
+    margin: 0 auto; /* Memusatkan container di tengah halaman */
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; /* Jarakkan gambar secara merata */
+    gap: 80px; /* Jarak antar gambar */
+}
+
+.image-wrapper {
+    text-align: center; /* Memastikan gambar dan caption di tengah */
+}
+
+.image-caption {
+    margin-top: 18px; /* Jarak antara gambar dan judul/teks */
+    color: #8B542F;
+}
+
+.image-caption h5 {
+    font-weight: bold;
+
+}
+
+.image-caption p {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+
+.custom-btn {
+    background-color: #FFA500 ; /* Warna latar belakang */
+    color: #FFFFFF ; /* Warna teks */
+    font-weight: bold ; 
+    font-size: 18px ; /* Ukuran teks */
+    padding: 24px 48px ; /* Padding tombol */
+    border: none ; /* Menghilangkan border */
+    border-radius: 16px ; /* Sudut tombol */
+    cursor: pointer ; /* Kursor berubah saat dihover */
+   
+}
+
+.btn.custom-btn:hover {
+    background-color: #FF8C00 ; /* Warna latar belakang saat dihover */
+    color: #8B542F;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    width: 100%; /* Mengisi lebar kontainer */
+}
+
+.video-container video {
+    width: 100%;
+    max-width: 480px; /* Maksimum lebar video */
+    height: auto; /* Tinggi video menyesuaikan */
+    margin: 0 auto; /* Memusatkan video */
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.articel-container {
+    display: flex;
+    align-items: center; /* Menjaga elemen tetap sejajar secara vertikal */
+}
+
+.articel-phone {
+    flex: 1; /* Menyesuaikan ukuran elemen agar sesuai dengan ruang yang tersedia */
+    padding-top: 60px;
+}
+
+.articel-phone img {
+    width: 326px;
+    height: 300px;
+}
+
+.articel-title {
+    flex: 2; /* Mengambil dua kali ruang dibandingkan .articel-phone */
+    margin-left: 20px; /* Memberikan sedikit jarak antara phone dan title */
+}
+
+.articel-text {
+    margin-bottom: 20px; /* Memberikan jarak antara teks dan aplikasi download */
+}
+
+.articel-text h3{
+    font-weight: bold;
+}
+
+.articel-apps img {
+    margin-right: 10px; /* Memberikan jarak antara gambar download */
+}
+
+
+.apps1 {
+    width: 108px;
+    height: 36px;
+}
+
+.apps2 {
+    width: 121.5px;
+    height: 36px;
+}
+
+footer {
+    background-color: #2d2d2d;
+    margin-top: 72px;
+}
+
+.footer-container {
+    margin-left: 60px;
+    display: flex;
+}
+
+.footer-kanan {
+    margin-left: 15px;
+    margin-top: 15px;
+    color: #FFFFFF;
+    
+}
+
+.footer-delivery {
+    margin: 4px 0;
+}
+
+.footer-icon {
+    display: flex;
+    gap: 12px;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.footer-logo .logo1{
+    width: 67px;
+    height: 70px;
+}
+
+.footer-logo .logo2{
+    width: 40px;
+    height: 71px;
+}
+
+.footer-social {
+    margin-bottom: 12px;
+    color: #FFFFFF;
+    
+}
+

@@ -1,0 +1,33 @@
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 36px;
+}
+.container-promo{
+    width: 1033px;
+    height: 545px;
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+}
+.article-foto img {
+    width: 545px;
+    height: 545px;
+}
+
+.article-title p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #8B542F;
+}
+
+.container {
+    margin-top: 106px;
+}
+
+.container h1 {
+    text-align: center;
+    color: #8B542F;
+    font-weight: bold;
+}

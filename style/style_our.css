@@ -1,0 +1,163 @@
+/* * {
+    padding: 0;
+    margin: 0;
+}
+
+.article-foto {
+    display: flex;
+    width: 480px;
+    height: 435px;
+    
+} */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.article-foto {
+    max-width: 1440px; /* Lebar maksimum kontainer */
+    margin: auto;
+}
+
+.row-1,
+.row-2 {
+    display: flex;
+    justify-content: space-around; /* Mengatur jarak di antara kolom */
+    align-items: center;
+    
+}
+
+.col-4 {
+    flex: 1; /* Mengambil 1 bagian dari container (satu kolom dari tiga kolom) */
+    max-width: 480px; /* Lebar maksimum gambar */
+    max-height: 435px; /* Tinggi maksimum gambar */
+}
+
+.container {
+    background-color: #F4EBDC;
+    width: 100%;
+    height: 178px;
+    margin: 0;
+    display: block;
+    max-width: 1440px;
+}
+
+.container p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 66px;
+}
+
+.card-hijau {
+    margin-top: 48px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+
+.card {
+    width: 346px;
+    height: 326px;
+    margin: 56px 0;
+    background: none;
+    border: none;
+    
+}
+
+.card-title {
+    color: #8B542F;
+    font-weight: bold;
+}
+
+.card-burger {
+    margin-top: -20px;
+    margin-left: 90px;
+    margin-right: 90px;
+} 
+
+.container-burger {
+    background-color: #F4EBDC;
+    width: 100%;
+    height: 1100px;
+}
+.container-burger a {
+    text-decoration: none;
+}
+.container-burger p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    color: #8B542F;
+    padding-top: 56px;
+}
+
+.container-spc p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 56px;
+    color: #8B542F;
+}
+
+.card-spc {
+    margin-top: -20px;
+    margin-left: 90px;
+    margin-right: 90px;
+} 
+
+.card-drk {
+    margin-top: -20px;
+    margin-left: 90px;
+    margin-right: 90px;
+} 
+
+.container-drk {
+    background-color: #F4EBDC;
+    width: 100%;
+    height: 1100px;
+}
+
+.container-drk p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    color: #8B542F;
+    padding-top: 56px;
+}
+
+.container-dst p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 56px;
+    color: #8B542F;
+}
+
+.card-dst {
+    margin-top: -20px;
+    margin-left: 90px;
+    margin-right: 90px;
+} 
+
+.card-kid {
+    margin-top: -20px;
+    margin-left: 90px;
+    margin-right: 90px;
+} 
+
+.container-kid {
+    background-color: #F4EBDC;
+    width: 100%;
+    height: 600px;
+}
+
+.container-kid p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    color: #8B542F;
+    padding-top: 56px;
+}
